@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Лабораторна 6</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="index.html">Лабораторна робота 6</a></h1>
+          <h2>Проста веб-сторінка</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li class="selected"><a href="index.html">Головна</a></li>
+          <li><a href="https://www.google.com">Google</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="banner"></div>
+	  <div id="sidebar_container">
+        <div class="sidebar">
+        <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Бічна панель</h3>
+            <p>Сайдбар для лабораторної роботи 6<br /><a href="https://en.wikipedia.org/wiki/Sidebar_(computing)">Більше</a></p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+         <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Корисні посилання</h3>
+            <ul>
+              <li><a href="https://uk.wikipedia.org/wiki/HTML">Посилання 1</a></li>
+              <li><a href="http://htmlbook.ru/html">Посилання 2</a></li>
+              <li><a href="https://developer.mozilla.org/uk/docs/Learn/Getting_started_with_the_web/HTML_basics">Посилання 3</a></li>
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Пошук</h3>
+            <form method="post" action="#" id="search_form">
+              <p>
+                <input class="search" type="text" name="search_field" value="Введіть ключові слова....." />
+                <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+              </p>
+            </form>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div> 
+      <div id="content">
+        <h1>Лабораторна робота №6</h1>
+        <p>З моменту свого створення HTML і пов'язані з нею протоколи порівняно швидко отримали визнання. Однак у перші роки існування цієї мови розмітки не було жодних чітких стандартів. Хоча її творці спочатку і задумували HTML як семантичну мову, позбавлену презентаційних можливостей[12], її практичне використання із різними браузерами призвело до додавання багатьох презентаційних елементів і атрибутів в HTML. Останні стандарти, пов'язані з HTML, відображають зусилля з подолання хаотичного розвитку мови і створення раціональної основи для розробки як змістовних, так і виразних документів.[13] Щоб повернути HTML її роль семантичної мови, Консорціум Всесвітньої павутини розробив мови стилізування, такі як Каскадні таблиці стилів та Розширена мова таблиць стилів, аби перенести на них відповідальність за вигляд документа. У зв'язку з цим специфікація HTML повільно почала повертатися виключно до семантичних елементів.</p>
+        <h2>Версії HTML</h2>
+        <p>Тім Бернерс-Лі представив HTML в дослідницькому центрі CERN в Женеві 1989 року.</p>
+        <ul>
+          <li>HTML (без номера версії, 3 листопада 1992): найперша версія, орієнтована лише на текст.</li>
+          <li>HTML 2.0 (листопад 1995): визначена стандартом RFC 1866 версія з підтримкою форм. Статус цього стандарту вже «історичний», також визнані застарілими попередні версії.</li>
+          <li>HTML 3.0: версія, яка не зазнала поширення, оскільки разом із випуском браузера Netscape Navigator версії 3, цей стандарт вже був застарілим.</li>
+          <li>HTML 4.0 (18 грудня 1997): були додані таблиці стилів, скрипти та фрейми. Також відбулось розділення на Strict (суворе дотримання стандартів), Frameset (з підтримкою фреймів), Transitional (перехідний). 24 квітня 1998 було випущено виправлену версію цього стандарту.</li>
+          <li>HTML 5 (Working Draft, 5 квітня 2008):[10] HTML 5 має новий словник, побудований на основі HTML 4.01 та XHTML 1.0. Також перероблена і розширена пов'язана з HTML специфікація DOM.</li>
+        </ul>
+        <form name="form1" method="post" action="script.php">
+<p> <span> Ваше ім'я: </span>
+<input type="text" name="textfield">
+</p>
+<p> <span> Ваша електронна адреса: </span>
+<input type="text" name="textfield">
+</p>
+<p> Поле для відгуку: </p>
+<p>
+<textarea name="textarea" cols="40" rows="10"> Ваш текст...
+</textarea>
+</p>
+<p> Оцінка: </p>
+<p>
+<select name=day_s size=1>
+<option value=1>1</option>
+<option value=2>2</option>
+<option value=3>3</option>
+<option value=4>4</option>
+<option value=5 selected>5</option>
+</select>
+</p>
+<input type="submit" value="Надіслати форму">
+<input type="reset" value="Очистити форму">
+</p>
+</form>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Головна</a> | <a href="https://www.google.com">Google</a></p>
+      <p> Всі права захищені.</p>
+    </div>
+  </div>
+</body>
+</html>
